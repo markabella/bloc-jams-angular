@@ -1,7 +1,6 @@
 (function() {
-    function AlbumCtrl(Fixtures, $scope) {
+    function AlbumCtrl(Fixtures) {
       this.albumData = Fixtures.getAlbum();
-      $scope.songs = albumPicasso.songs;
     }
 
     angular
